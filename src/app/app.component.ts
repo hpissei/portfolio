@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { UserProfileComponentComponent } from './user-profile-component/user-profile-component.component'
+import "@fontsource/bebas-neue";
 
 @Component({
   selector: 'app-root',
