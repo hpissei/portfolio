@@ -5,3 +5,5 @@
 /.vs
 /portfolioapp/obj/Debug
 /PortfolioApp/.vs/PortfolioApp
+/PortfolioApp/.vscode
+/PortfolioApp/node_modules
