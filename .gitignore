@@ -3,3 +3,5 @@
 ################################################################################
 
 /.vs
+/portfolioapp/obj/Debug
+/PortfolioApp/.vs/PortfolioApp

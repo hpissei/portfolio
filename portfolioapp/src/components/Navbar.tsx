@@ -13,9 +13,9 @@ const Nav = styled.nav`
 
 const Navbar = () => {
     return (
-        <Nav className="navbar-expand-sm navbar-toggleable-sm ng-white border-bottom box-shadow mb-3 navbar navbar-light">
-            <h1>Portfolio </h1>
-            < div>
+        <Nav>
+            <h1>My Portfolio</h1>
+            <div>
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
                 <Link to="/projects">Projects</Link>
