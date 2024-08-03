@@ -79,26 +79,32 @@ const Projects = () => {
       title: 'Portfolio',
       description: 'A personal website to showcase my portfolio and blog posts.',
       techStack: 'React, Styled-Components, Framer Motion',
-      link: 'https://yourportfolio.com',
-    },
-    {
-      title: 'E-commerce Platform',
-      description: 'An online platform for buying and selling products.',
-      techStack: 'React, Redux, Node.js, MongoDB',
-      link: 'https://yourecommerce.com',
-    },
-    {
-      title: 'Chat Application',
-      description: 'A real-time chat application with private and group chat features.',
-      techStack: 'React, Socket.io, Express, MongoDB',
-      link: 'https://yourchatapp.com',
-    },
-    {
-      title: 'Weather App',
-      description: 'A web application that provides weather forecasts for different locations.',
-      techStack: 'React, OpenWeatherMap API',
-      link: 'https://yourweatherapp.com',
-    },
+          link: 'https://github.com/hpissei/portfolio/',
+      },
+      {
+          title: 'Restaurant Reservation CLI',
+          description: 'A command-line interface for managing the restaurant reservations.',
+          techStack: 'Golang',
+          link: 'https://github.com/hpissei/restaurantresrervation-cli/',
+      },
+    //{
+    //  title: 'E-commerce Platform',
+    //  description: 'An online platform for buying and selling products.',
+    //  techStack: 'React, Redux, Node.js, MongoDB',
+    //  link: 'https://yourecommerce.com',
+    //},
+    //{
+    //  title: 'Chat Application',
+    //  description: 'A real-time chat application with private and group chat features.',
+    //  techStack: 'React, Socket.io, Express, MongoDB',
+    //  link: 'https://yourchatapp.com',
+    //},
+    //{
+    //  title: 'Weather App',
+    //  description: 'A web application that provides weather forecasts for different locations.',
+    //  techStack: 'React, OpenWeatherMap API',
+    //  link: 'https://yourweatherapp.com',
+    //},
   ];
 
   return (
@@ -106,7 +112,11 @@ const Projects = () => {
       <Container>
         <Title>Projects</Title>
         <Description>
-          Here are some of the projects I've worked on. They range from web applications to full-stack solutions.
+                  I have worked on several products, projects ranging from native, web, mobile & microservices applications.
+                  The products on which I worked professionally due to confidentiliaity they are not publically visible nor shareable.
+                  I have worked as a Team Leader, Project Manager, FullStack Engineer and a Consultant.
+                  But I have created some personal projects which are as follows.
+          {/*Here are some of the projects I've worked on. They range from web applications to full-stack solutions.*/}
         </Description>
         <ProjectsGrid>
           {projectData.map((project, index) => (
