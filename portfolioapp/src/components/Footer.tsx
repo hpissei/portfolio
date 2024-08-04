@@ -8,9 +8,9 @@ const FooterContainer = styled.footer`
   text-align: center;
 `;
 
-const LinkedInStyle = { color: "#0082ca;"};
-const GitHub = { color: "#333333;" };
-const StackOverflow = { color: "#ffac44;" };
+const LinkedInStyle = { color: "#0082ca"};
+const GitHub = { color: "#333333" };
+const StackOverflow = { color: "#ffac44" };
 
 const Footer = () => {
     return (
