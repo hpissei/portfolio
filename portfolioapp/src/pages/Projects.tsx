@@ -151,8 +151,8 @@ const Projects = () => {
                     <Title>Professional Projects</Title>
                     <Description>
                         I have worked on several products, projects ranging from native, web, mobile & microservices applications.
-                        The products on which I worked professionally due to confidentiliaity the source code is not publically shareable.
-                        But I have created some personal projects which are as follows.
+                        The products on which I worked professionally due to confidentiliaity the source code,the tech stack is not publically shareable.
+                        Some professional products are as follows.
                     </Description>
                     <ProjectsGrid>
                         {professionalProjectsData.map((project, index) => (
