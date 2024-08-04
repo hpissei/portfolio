@@ -176,7 +176,7 @@ Error generating stack: `+o.message+`
   background: ${e=>e.theme.secondary};
   padding: 1rem;
   text-align: center;
-`,ET={color:"#0082ca;"},RT={color:"#333333;"},AT={color:"#ffac44;"},LT=()=>T.jsx(TT,{className:"navbar-fixed-bottom",children:T.jsx("div",{className:"container",children:T.jsxs("div",{className:"mb-4",children:[T.jsx("a",{href:"https://www.linkedin.com/in/heetesh-panghanti-94549b117/",target:"_blank",children:T.jsx("i",{className:"fab fa-linkedin-in fa-2x p-2",style:ET})}),T.jsx("a",{href:"https://github.com/hpissei",target:"_blank",children:T.jsx("i",{className:"fab fa-github fa-2x p-2",style:RT})}),T.jsx("a",{href:"https://stackoverflow.com/users/9322797/hp-issei",target:"_blank",children:T.jsx("i",{className:"fab fa-stack-overflow fa-2x p-2",style:AT})}),T.jsx("p",{children:"� 2024 All rights reserved."})]})})}),_T=re.nav`
+`,ET={color:"#0082ca;"},RT={color:"#333333;"},AT={color:"#ffac44;"},LT=()=>T.jsx(TT,{className:"navbar-fixed-bottom",children:T.jsx("div",{className:"container",children:T.jsxs("div",{className:"mb-4",children:[T.jsx("a",{href:"https://www.linkedin.com/in/heetesh-panghanti-94549b117/",target:"_blank",children:T.jsx("i",{className:"fab fa-linkedin-in fa-2x p-2",style:ET})}),T.jsx("a",{href:"https://github.com/hpissei",target:"_blank",children:T.jsx("i",{className:"fab fa-github fa-2x p-2",style:RT})}),T.jsx("a",{href:"https://stackoverflow.com/users/9322797/hp-issei",target:"_blank",children:T.jsx("i",{className:"fab fa-stack-overflow fa-2x p-2",style:AT})}),T.jsx("p",{children:"© 2024 All rights reserved."})]})})}),_T=re.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
