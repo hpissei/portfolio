@@ -50,8 +50,8 @@ const About = () => {
             <Container>
                 <Title>About Me</Title>
                 <Description>
-                    I'm a passionate software developer with experience in building web and mobile applications. I love creating
-                    user-friendly and efficient solutions that solve real-world problems. My main focus is on developing clean and
+                    I'm a passionate software developer, team lead, project manager & consultant with experience in building native, web and mobile applications.
+                    I love creating  user-friendly and efficient solutions that solve real-world problems. My main focus is on developing clean and
                     maintainable code, and I'm always eager to learn new technologies and improve my skills.
                 </Description>
                 <Skills>

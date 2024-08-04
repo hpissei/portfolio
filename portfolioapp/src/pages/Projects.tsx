@@ -74,6 +74,42 @@ const ProjectLink = styled.a`
 `;
 
 const Projects = () => {
+    const professionalProjectsData = [{
+        title: 'Skillsurvey',
+        description: 'SkillSurvey is the leader in online reference checking, sourcing and credentialing, providing immediately useful insights to help employers make better hiring decisions. SkillSurvey speeds hiring for healthcare, commercial, higher education, and staffing and recruiting organizations.',
+        techStack: '',
+        link: 'https://www.icims.com/products/talent-cloud-applications/skillsurvey/',
+    },
+        {
+            title: 'CCH Axcess',
+            description: 'CCH Axcess is the only complete cloud solution, allowing you to transition effortlessly from return preparation, to research, to document exchange and billing.',
+            techStack: '',
+            link: 'https://www.wolterskluwer.com/en/solutions/cch-axcess',
+        },
+        {
+            title: 'Atrezzo',
+            description: 'Atrezzo is a proprietary technology platform that integrates essential care management features and all relevant data into one comprehensive solution. Leading-edge technology coupled with an intuitive user experience provides a foundation for proactive care management.',
+            techStack: '',
+            link: 'https://acentra.com/technologies/atrezzo/',
+        },
+        {
+            title: 'Energage',
+            description: 'Energage Platform, is an suite of HR technology tools that enable companies to improve the working lives of individuals, build distinct brands, and achieve better business results. ',
+            techStack: '',
+            link: 'https://www.energage.com/platform/',
+        },
+        {
+            title: 'Raptivity',
+            description: 'Raptivity is a must-have tool for instructional designers, corporate trainers, and higher-ed professors to create eLearning interactions in a snap. Unlike common authoring tools that offer basic templates, Raptivity has visually engaging and sophisticated interactions. Let Raptivity take care of interaction design, so you can focus on content and curriculum.',
+            techStack: '',
+            link: 'https://www.raptivity.com/',
+        },
+        {
+            title: 'Quillionz',
+            description: 'Quillionz is an online question generator that uses artificial intelligence (AI) to create questions from texts.',
+            techStack: '',
+            link: 'https://www.quillionz.com/',
+        }];
   const projectData = [
     {
       title: 'Portfolio',
@@ -87,6 +123,7 @@ const Projects = () => {
           techStack: 'Golang',
           link: 'https://github.com/hpissei/restaurantresrervation-cli/',
       },
+      
     //{
     //  title: 'E-commerce Platform',
     //  description: 'An online platform for buying and selling products.',
@@ -107,16 +144,35 @@ const Projects = () => {
     //},
   ];
 
-  return (
+    return (
+        <>
+            <ProjectsSection id="professionalProjects">
+                <Container>
+                    <Title>Professional Projects</Title>
+                    <Description>
+                        I have worked on several products, projects ranging from native, web, mobile & microservices applications.
+                        The products on which I worked professionally due to confidentiliaity the source code is not publically shareable.
+                        But I have created some personal projects which are as follows.
+                    </Description>
+                    <ProjectsGrid>
+                        {professionalProjectsData.map((project, index) => (
+                            <ProjectCard key={index} whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
+                                <ProjectTitle>{project.title}</ProjectTitle>
+                                <ProjectDescription>{project.description}</ProjectDescription>
+                                <ProjectTechStack>{project.techStack}</ProjectTechStack>
+                                <ProjectLink href={project.link} target="_blank" rel="noopener noreferrer">
+                                    View Product Site
+                                </ProjectLink>
+                            </ProjectCard>
+                        ))}
+                    </ProjectsGrid>
+                </Container>
+            </ProjectsSection>
     <ProjectsSection id="projects">
       <Container>
-        <Title>Projects</Title>
+        <Title>Personal Projects</Title>
         <Description>
-                  I have worked on several products, projects ranging from native, web, mobile & microservices applications.
-                  The products on which I worked professionally due to confidentiliaity they are not publically visible nor shareable.
-                  I have worked as a Team Leader, Project Manager, FullStack Engineer and a Consultant.
-                  But I have created some personal projects which are as follows.
-          {/*Here are some of the projects I've worked on. They range from web applications to full-stack solutions.*/}
+            I have created some personal projects which are as follows.
         </Description>
         <ProjectsGrid>
           {projectData.map((project, index) => (
@@ -125,13 +181,14 @@ const Projects = () => {
               <ProjectDescription>{project.description}</ProjectDescription>
               <ProjectTechStack>{project.techStack}</ProjectTechStack>
               <ProjectLink href={project.link} target="_blank" rel="noopener noreferrer">
-                View Project
+                View Project Source Code
               </ProjectLink>
             </ProjectCard>
           ))}
         </ProjectsGrid>
       </Container>
-    </ProjectsSection>
+            </ProjectsSection>
+        </>
   );
 };
 
