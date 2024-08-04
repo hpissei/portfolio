@@ -1,7 +1,8 @@
 // About.js
 //import React from 'react';
 import styled from 'styled-components';
-import { motion } from 'framer-motion';
+//import { motion } from 'framer-motion';
+import { Link } from "react-router-dom";
 
 const AboutSection = styled.section`
   padding: 4rem 2rem;
@@ -43,22 +44,6 @@ const Skill = styled.div`
   color: #333;
 `;
 
-const Button = styled(motion.a)`
-  display: inline-block;
-  padding: 0.75rem 1.5rem;
-  border-radius: 5px;
-  background-color: #007bff;
-  color: white;
-  font-weight: bold;
-  text-decoration: none;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-
-  &:hover {
-    background-color: #0056b3;
-  }
-`;
-
 const About = () => {
     return (
         <AboutSection id="about">
@@ -91,13 +76,8 @@ const About = () => {
                     <Skill>CosmosDB</Skill>
                     <Skill>REST API</Skill>
                 </Skills>
-                <Button
-                    href="/portfolio/contact/"
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.95 }}
-                >
-                    Get in Touch
-                </Button>
+                <Link to="/portfolio/contact"
+                   className="btn btn-lg btn-warning">Get in Touch</Link>
             </Container>
         </AboutSection>
     );
