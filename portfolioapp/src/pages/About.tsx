@@ -70,15 +70,29 @@ const About = () => {
                     maintainable code, and I'm always eager to learn new technologies and improve my skills.
                 </Description>
                 <Skills>
+                    <Skill>.Net</Skill>
+                    <Skill>.Net Core</Skill>
+                    <Skill>C#</Skill>
+                    <Skill>SQL</Skill>
+                    <Skill>Java</Skill>
                     <Skill>JavaScript</Skill>
+                    <Skill>TypeScript</Skill>
                     <Skill>React</Skill>
                     <Skill>Node.js</Skill>
                     <Skill>Python</Skill>
+                    <Skill>Golang</Skill>
                     <Skill>GraphQL</Skill>
                     <Skill>Docker</Skill>
+                    <Skill>gRPC</Skill>
+                    <Skill>Microservices</Skill>
+                    <Skill>Azure</Skill>
+                    <Skill>AWS</Skill>
+                    <Skill>ElasticSearch</Skill>
+                    <Skill>CosmosDB</Skill>
+                    <Skill>REST API</Skill>
                 </Skills>
                 <Button
-                    href="/contact"
+                    href="/portfolio/contact/"
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.95 }}
                 >
