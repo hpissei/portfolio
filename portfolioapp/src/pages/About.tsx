@@ -76,8 +76,7 @@ const About = () => {
                     <Skill>CosmosDB</Skill>
                     <Skill>REST API</Skill>
                 </Skills>
-                <Link to="/portfolio/contact"
-                   className="btn btn-lg btn-warning">Get in Touch</Link>
+                <Link to="mailto:hpultimatemedia@email.com" className="btn btn-lg btn-warning">Get In Touch</Link>
             </Container>
         </AboutSection>
     );
