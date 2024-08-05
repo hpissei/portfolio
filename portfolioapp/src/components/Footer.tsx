@@ -21,6 +21,8 @@ const Footer = () => {
                     <a href="https://github.com/hpissei" target="_blank" ><i className="fab fa-github fa-2x p-2" style={GitHub}></i></a>
                     <a href="https://stackoverflow.com/users/9322797/hp-issei" target="_blank"><i className="fab fa-stack-overflow fa-2x p-2" style={StackOverflow}></i></a>
                     <p>&copy; 2024 All rights reserved.</p>
+                    <p><a href="https://www.flaticon.com/free-icons/portfolio" title="portfolio icons">Portfolio icons created by Freepik - Flaticon</a>
+                    </p>
                     </div>
                 </div>
         </FooterContainer>
