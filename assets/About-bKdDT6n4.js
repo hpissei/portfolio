@@ -1,4 +1,4 @@
-import{d as n,j as e,m as r,L as o}from"./index-B2llxZeK.js";const s=n.section`
+import{d as n,j as e,m as r,L as o}from"./index-EEpb7z8L.js";const s=n.section`
   padding: 4rem 2rem;
   background-color: #f7f8fa;
   text-align: center;
